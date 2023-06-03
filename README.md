@@ -1,6 +1,8 @@
 
 ##### Genel Bakış:
 
+Not:İsmail taşdelenden alınmıştır
+
 Cross-Site Scripting (XSS) saldırıları, zararlı betiklerin başka türlü zararsız ve güvenilir web sitelerine enjekte edildiği bir enjeksiyon türüdür. XSS saldırıları, saldırganın bir web uygulamasını kullanarak genellikle tarayıcı tarafı bir betik şeklinde, zararlı kodu farklı bir son kullanıcıya gönderdiği zaman meydana gelir. Bu saldırıların başarılı olmasına izin veren hatalar oldukça yaygındır ve bir web uygulamasının girdiyi doğrulamadan veya kodlamadan ürettiği çıktıda kullanıcıdan gelen girişleri içerdiği herhangi bir yerde meydana gelebilir.
 
 Bir saldırgan, XSS'i kullanarak zararlı bir betiği aldatılan bir kullanıcıya gönderebilir. Son kullanıcının tarayıcısı, betiğin güvenilmez olduğunu bilmediği için betiği çalıştırır. Güvendiği bir kaynaktan geldiğini düşündüğü için, zararlı betik tarayıcı tarafından saklanan çerezlere, oturum belirteçlerine veya bu siteyle kullanılan diğer hassas bilgilere erişebilir. Bu betikler, hatta HTML sayfasının içeriğini yeniden yazabilir. Farklı XSS hatalarının türleri hakkında daha fazla bilgi için, [Cross-Site Scripting Türleri](https://www.owasp.org/index.php/Types_of_Cross-Site_Scripting) sayfasına bakın.
